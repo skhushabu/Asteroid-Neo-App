@@ -1,0 +1,48 @@
+.neo-stats {
+    max-width: 60%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.neo-stats form {
+    margin-bottom: 20px;
+}
+
+.neo-stats h1,
+.neo-stats h2 {
+    text-align: center;
+}
+
+.neo-stats label {
+    display: block;
+    margin: 8px 0 4px;
+}
+
+.date-input {
+    width: 97%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.neo-stats .submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.neo-stats .submit-button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+.neo-stats .submit-button:hover:enabled {
+    background-color: #218838;
+}
